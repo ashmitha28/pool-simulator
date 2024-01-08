@@ -30,8 +30,8 @@ The overall way to use this would be to create the simulation, then start it by 
 The implementation called SimplePoolSimulator that implements the PoolSimulator interface.
 It must have the following characteristics:
 
-The project will have one constructor SimplePoolSimulator(int width,int height,String type) throws IllegalArgumentException . It should initialize the table accordingly, with its lower left corner at 
- . Attempts to pass a non-positive width or height should cause the constructor to throw an IllegalArgumentException . Similarly, passing the type as something other than "simple" and "friction" should also cause the constructor to throw an IllegalArgumentException .
+The project will have one constructor SimplePoolSimulator(int width,int height,String type) throws IllegalArgumentException . It should initialize the table accordingly.
+Attempts to pass a non-positive width or height should cause the constructor to throw an IllegalArgumentException . Similarly, passing the type as something other than "simple" and "friction" should also cause the constructor to throw an IllegalArgumentException .
 
 The start method will throw an exception if the ball does not start completely inside the pool table.
 
