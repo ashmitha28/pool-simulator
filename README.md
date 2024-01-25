@@ -1,6 +1,6 @@
 <html>
   <h3>
-    Billards Simulator
+    Billiards Simulator
   </h3>
   <body>
     
